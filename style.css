@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+#section{
+width: 280px;
+height: 430px;
+border-radius: 16px;
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+margin: auto;
+padding: 20px;
+}
+.containerQR{
+    display: flex;
+    flex-direction: column;
+    padding: 14px 14px 25px;
+    gap: 16px;
+    border-radius: 14px;
+    background-color: white;
+    margin-bottom: 14px;
+}
+.QRtext{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.QRhead{
+    font-family: "Outfit ExtraBold";
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    color: hsl(218, 44%, 22%);
+    line-height: 24px;
+}
+.paragraph{
+    font-family: "Outfit";
+    color: hsl(220, 15%, 55%);
+}
+.paragraph p{
+    width: fit-content;
+    margin: auto;
+    font-size: 14px;
+    line-height: 16px;
+}
+.QRimg img{
+    width: 100%;
+    border-radius: 10px;
+}
